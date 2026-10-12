@@ -1,0 +1,36 @@
+
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Andro CFW session and credentials
+cfw.session
+
+# Python virtual environments
+venv/
+venv*/
+.venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
